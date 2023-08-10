@@ -1,0 +1,74 @@
+.custom-bg {
+    background-image: linear-gradient(360deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/banner.png');
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 1140px;  
+}
+
+.custom-carousel{
+    width: 1296px;
+    height: 600px;
+}
+.custom-client{
+    width: 60px;
+    height: 60px;
+}
+@media only screen and (max-width: 576px) {
+    .custom-container{
+        margin-left: -50px !important;
+    }
+    .custom-bg{
+        background-image: url('../images/banner.png');
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .custom-size{
+        width: 100% !important;
+        
+    }
+    .custom-size2{
+        width: 25% !important;
+        margin-left: 160px;
+    }
+    
+
+    .custom-carousel{
+        width: 100%;
+        height: 100%;
+    }
+
+    .custom-client{
+        margin-top: 200px;
+        margin-left: 300px;
+    }
+
+    .custom-faq-bg{
+        padding: 0px;
+        margin: 0px;
+        width: 100% !important;
+
+    }
+
+    .custom-contact-address{
+        margin-left: -50px;
+        margin-bottom: 30px;
+    }
+    .custom-margin{
+        margin-bottom: 15px !important;
+    }
+    .custom-contact{
+        width: 300px !important;
+        margin-left: -50px !important;
+    }
+
+    .custom-footer{
+        padding-left: 100px;
+        padding-top: 150px !important;
+    }
+    .custom-footer-width{
+        width: 100% !important;
+        margin-bottom: 50px;
+        padding-right: 80px;
+    }
+
+}
